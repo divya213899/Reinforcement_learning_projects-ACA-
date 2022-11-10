@@ -1,27 +1,12 @@
 ACA ~ Reinforcement learning project Assignment 
 
- You need to write Code for multi-variable linear regression 
-Functions of your code should be easily readable and reusable.
+ On April 10, 1912, the RMS Titanic sank after colliding with an iceberg on its maiden voyage. The accident killed 1502 of the 2224 passengers and crew on board.
+The dataset has the response: whether a passenger survived the tragedy (Survived). Additional information includes the sex of the passenger (1 if male, 0 otherwise)(Sexmale), age (Age), the number of siblings/spouse aboard (SibSp), the number of parents/children aboard (Parch) and the passengers fare (Fare) (in British pounds). The training data-set contains around 880 observations. Train your classification model using this data (train.csv) and calculate percentage accuracy of your model on test data set (test.csv).
 
-Given a data set attached with this message (CarPrice_Assignment.csv) . The data set is about predicting the car price based on features given(such as height, width, power, etc.)
-Only use following features to train your model 
-* carlength
-* carwidth
-* carheight
-* enginesize
-* stroke
-* horsepower
-* price
+Here is a little word problem for you.
+@Ghooster (Arpit) was 20 years old when the tragedy happened. He boarded the ship with no family or spouse and paid 7.5 British pounds for his ticket. @Shreya nigwal  was 19 years old on the tragic day. She boarded the ship with her fiance (treat this as a spouse) and her mother. She paid 512 British pounds for her ticket. What are the estimated probabilities of survival for Kumar Arpit and Shreya  Nigwal as per the model you have trained above?
 
-Split the data set into training and testing data set in 80:20 ratio.
-Train your model with the training data set and report the accuracy of your model based on testing data set.
-
-2.b Here a word problem for you-
-Ishan Bawne  wants to buy a car but he is not willing to ask for the price of the car as he is an introvert. The features of the car that he want to buy are 
-carlength - 190.9
-carwidth - 70.3
-carheight - 54.9
-enginesize    - 183
-stroke    - 3.64
-horsepower - 123
-Help Ishan Bawne  to find the price of the car.
+Here's a bit information about data sets -
+1. train.csv - This data set is labeled with label name survived. You need  train your model using label  "survivied"
+2. test.csv - You need make predictions using this data set.
+3. gender_submission.csv - Compare the labels with the above predictions to calculate the accuracy.
